@@ -1,8 +1,16 @@
 {
-  "name": "test-lib",
+  "name": "@lucascgomes/test-lib",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "main": "lib/main.js",
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucascgomes/test-lib.git"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "5.14.1",
     "@testing-library/react": "11.2.7",
@@ -44,5 +52,15 @@
     "clean-webpack-plugin": "4.0.0-alpha.0",
     "path": "0.12.7",
     "webpack-cli": "4.7.2"
-  }
+  },
+  "description": "",
+  "bugs": {
+    "url": "https://github.com/lucascgomes/test-lib/issues"
+  },
+  "homepage": "https://github.com/lucascgomes/test-lib#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "",
+  "license": "ISC"
 }
